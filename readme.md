@@ -1,3 +1,6 @@
-# Jason Muteham - Data Analyst Portfolio #
+# Jason Muteham - Data Analyst Portfolio 
+## Which tree species should the city plant?
 
-4th place Datacamp competition entry [City Tree Species](https://jasonmuteham.github.io/City-Tree-Species/)
+### A [datacamp.com](https://www.datacamp.com) competition entry 
+
+4th place [City Tree Species](https://jasonmuteham.github.io/City-Tree-Species/)
