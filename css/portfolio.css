@@ -3,6 +3,7 @@ body{
 } 
 
 #header{
+    margin-top: 40px;
     margin-bottom: 40px;
     letter-spacing: 1em;
 }
@@ -119,3 +120,7 @@ a:hover{
 
 iframe, object, embed{max-width: 100%;}
 
+.profile-img{
+    border-radius: 50%;
+    width: 150px;
+}
