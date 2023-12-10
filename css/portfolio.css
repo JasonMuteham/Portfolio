@@ -127,3 +127,6 @@ iframe, object, embed{max-width: 100%;}
 .logo-img{
     width: 40px;
 }
+md-block{
+    text-align: left;
+    font-size: large;}
