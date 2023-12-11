@@ -67,4 +67,4 @@ All options have been tested and are performant. Ultimately the app is packaged 
 
 #### Streamlit
 
-The [Streamlit](https://streamlit.io/) app loads constituency geometry via the geojson file and conducts data queries on the parquet files. The merged data is then passed to py_deck, where it is displayed as an interactive map layer.
+The [Streamlit](https://streamlit.io/) app loads constituency geometry via the geojson file and conducts data queries on the parquet files. The merged data is then passed to [pydeck](https://deckgl.readthedocs.io/en/latest/), where it is displayed as an interactive map layer.
