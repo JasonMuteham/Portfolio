@@ -59,11 +59,13 @@ Various methods are available to supply the streamlit app with data, the followi
 
 All options have been tested and are performant. Ultimately the app is packaged with parquet files that are queried in app by DuckDB. Why? well.
 
-* Free hosting services have a file size limit less that the DuckDB database size eg. GitHub 100mb vs Database >180mb.
-* MotherDuck is still developmental.
-* The size of the parquet files required are compact (<50mb) and can be queried directly as tables with DuckDB.
-* DuckDB is fast. 
-* The underlying data changes slowly.
+
+<li> Free hosting services have a file size limit less that the DuckDB database size eg. GitHub 100mb.</li>
+<li>MotherDuck is still developmental.</li>
+<li>The size of the parquet files required are compact (<50mb) and can be queried directly as tables with DuckDB.</li>
+<li>DuckDB is fast.</li> 
+<li>The underlying data changes slowly.</li>
+
 
 Personally, I prefer the API method when developing locally as it is possible to query the database with multiple processes. Usually DuckDB only allows a single process if queried directly. 
 
