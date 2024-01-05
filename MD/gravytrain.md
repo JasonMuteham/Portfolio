@@ -31,7 +31,10 @@ The [UK Parliament](https://www.parliament.uk/) website hosts [Resources](https:
 
 The [Independent Parliamentary Standards Authority](https://www.theipsa.org.uk/), the independent body that regulates and administers the business costs and decides the pay and pensions of the 650 elected MPs and their staff in the UK. [Expense](https://www.theipsa.org.uk/mp-staffing-business-costs/annual-publications) claim data is released and updated every two months and includes details of all publishable claims for all MPs for a financial year. The following data is extracted. 
 
-<li>All published expense claims 2010 - 2023, approx 2 million records.</li>
+<li>All published expense claims 2010 - 2023, approx 2 million** records.</li>
+
+
+** *See update*
 
 #### Extract transform Load
 
@@ -68,3 +71,18 @@ All options have been tested and are performant. Ultimately the app is packaged 
 #### Streamlit
 
 The [Streamlit](https://streamlit.io/) app loads constituency geometry via the geojson file and conducts data queries on the parquet files. The merged data is then passed to [pydeck](https://deckgl.readthedocs.io/en/latest/), where it is displayed as an interactive map layer.
+
+#### Update
+
+A few weeks after releasing the [Gravy Train](https://gravytrain.streamlit.app) app the IPSO stopped publishing individual transactions for "MP Travel" and removed over 1 million records from the dataset. The missing data is crucial for the analysis. The IPSO do produce an aggregate dataset based on financial year. The pipelines and app have been update to use the alternative data source. A few observation on the aggregate dataset.
+
+<li>The format of the data is inconsistent between financial years.</li>
+<li>Aggregate totals do not match the individual transactions.</li>
+<li>Data for a financial year is release & updated many months, years after the period has ended.</li>
+
+
+All welcome challenges to exercise the data engineering skill set! The new dataset also provided an opportunity to try out a different data orchestration framework in this case [Mage](https://www.mage.ai/). 
+
+
+
+
