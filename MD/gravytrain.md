@@ -74,7 +74,7 @@ The [Streamlit](https://streamlit.io/) app loads constituency geometry via the g
 
 #### Update
 
-A few weeks after releasing the [Gravy Train](https://gravytrain.streamlit.app) app the IPSO stopped publishing individual transactions for "MP Travel" and removed over 1 million records from the dataset. The missing data is crucial for the analysis. The IPSO do produce an aggregate dataset based on financial year. The pipelines and app have been update to use the alternative data source. A few observation on the aggregate dataset.
+A few weeks after releasing the [Gravy Train](https://gravytrain.streamlit.app) app the IPSO stopped publishing individual transactions for “MP Travel” and removed over 1 million records from the dataset. The missing data is crucial for the analysis. The IPSO does produce an aggregate dataset based on the financial year. The pipelines and app have been updated to use the alternative data source. A few observations on the aggregate dataset.
 
 <li>The format of the data is inconsistent between financial years.</li>
 <li>Aggregate totals do not match the individual transactions.</li>
