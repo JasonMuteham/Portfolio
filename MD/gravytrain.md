@@ -10,7 +10,7 @@ The outcome? The Gravy Train. Now armed with data, the question is: How does you
 
 <h3 class="light-blue-text darken-1">The Gravy Train Data Stack</h3>
 
-<a href="/gravytrain.html" target="_blank"><img src="images/EtL.png" class=""></a>
+<<img src="images/EtL.png" class="">
 
 ---
 
@@ -43,7 +43,7 @@ In the process of extracting data from these sources, various ETL options were e
 
 #### DBT
 
-The Data Build Tool form [**DBT Labs**](https://www.getdbt.com/) is used to transform the raw data into tables and views.  
+The Data Build Tool from [**DBT Labs**](https://www.getdbt.com/) is used to transform the raw data into tables and views.  
 
 **Geojson**
 
